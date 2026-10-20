@@ -1,0 +1,15 @@
+{
+  "enabledMcpjsonServers": ["nuxt-docs", "nuxt-ui", "context7", "playwright"],
+  "permissions": {
+    "allow": [
+      "Bash(pnpm dev)",
+      "Bash(pnpm test:*)",
+      "Bash(pnpm exec eslint:*)",
+      "Bash(pnpm exec nuxi typecheck)",
+      "Bash(pnpm exec nuxi prepare)",
+      "mcp__nuxt-docs",
+      "mcp__nuxt-ui",
+      "mcp__context7"
+    ]
+  }
+}
